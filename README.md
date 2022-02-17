@@ -1,2 +1,2 @@
 # SedooCatalogueScriptsExemples
-Exemples to connect to SEDOO Catalogues
+Examples to connect to SEDOO Catalogues
