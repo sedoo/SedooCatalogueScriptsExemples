@@ -8,7 +8,7 @@ export TOKEN=$(curl -X POST "https://sso.aeris-data.fr/auth/realms/aeris/protoco
  -d 'grant_type=password' \
  -d "client_id=aeris-public" | jq -r '.access_token')
 HEADER="--header=Authorization: Bearer $TOKEN"
-echo $HEADER
+#echo $HEADER
 
 wget "$HEADER" -qO- https://api.sedoo.fr/COMPLETE_URL_OF_THE_REQUESTED_SERVICE
 
